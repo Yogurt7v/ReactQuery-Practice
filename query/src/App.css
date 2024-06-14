@@ -1,0 +1,78 @@
+#root{
+  display: flex;
+  flex-direction: column
+}
+
+.wrapper {
+  margin-left: 100px;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+button{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer
+}
+
+button:hover{
+  transition: all 0.5s ease-in-out;
+  background-color: black;
+  color: white
+}
+
+input {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+input::placeholder{
+  color: black
+}
+
+
+input:focus{
+  outline: none
+}
+
+button[type = 'submit']{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer
+}
+
+button[type = 'submit']:hover{
+  transition: all 0.5s ease-in-out;
+  background-color: black;
+  color: white
+}
